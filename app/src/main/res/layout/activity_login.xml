@@ -5,18 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/activity_login"
-    android:background="@android:color/holo_blue_dark"
+    android:background="#FFFFFF"
     tools:context=".LoginActivity">
 
     <TextView
         android:id="@+id/MainMenuTextView"
-        android:layout_width="227dp"
-        android:layout_height="82dp"
+        android:layout_width="337dp"
+        android:layout_height="145dp"
         android:fontFamily="cursive"
         android:gravity="center|center_horizontal|center_vertical"
         android:text="GetTUCKed"
         android:textAlignment="gravity"
-        android:textSize="40sp"
+        android:textColor="#000000"
+        android:textSize="60sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +31,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
+        android:backgroundTint="#FFFFFF"
         android:text="Login"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -42,12 +47,16 @@
         android:id="@+id/signUpBtn"
         android:layout_width="247dp"
         android:layout_height="58dp"
+        android:backgroundTint="#FFFFFF"
         android:text="Sign up and GetTucked"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/loginBtn"
-        app:layout_constraintVertical_bias="0.405" />
+        app:layout_constraintVertical_bias="0.165" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/TextInputEmail"
